@@ -1,7 +1,6 @@
 body{
-  margin: 0 auto;
   font-family: 'Montserrat', sans-serif;
-
+  margin: 0 auto;
 }
 
 a{
@@ -9,10 +8,10 @@ a{
 }
 
 header{
-  position: fixed;
-  height: 110px;
-  width: 100%;
   background-color: #2B1C40;
+  height: 110px;
+  position: fixed;
+  width: 100%;
   z-index: 1;
 }
 
@@ -21,11 +20,11 @@ header>.menu>a:hover{
 }
 
 form{
-  position: absolute;
-  margin-left: 60%;
   background-color: white;
   bottom: 45px;
+  margin-left: 60%;
   padding: 4% 3% 4% 4%;
+  position: absolute;
   width: 33%;
 }
 
@@ -35,12 +34,12 @@ input{
 }
 
 button{
-  color: white;
   background-color: #FF00BF;
   border: none;
+  border-radius: 5%;
+  color: white;
   font-size: 12pt;
   padding: 3% 5% 3% 5%;
-  border-radius: 5%;
 }
 
 footer{
@@ -70,16 +69,16 @@ footer{
 
 .image{
   display: inline-block;
+  margin: 35px 0px 0px 70px;
   vertical-align: top;
   width: 55px;
-  margin: 35px 0px 0px 70px;
 }
 
 .menu{
   display: inline-block;
   float: right;
-  margin: 45px 143px 0px 0px;
   font-size: 12pt;
+  margin: 45px 143px 0px 0px;
 }
 
 .menu>a{
@@ -93,34 +92,34 @@ footer{
 }
 
 .pag1>.hero{
-  top: 5px;
-  position: relative;
-  width: 100%;
   height: auto;
+  position: relative;
+  top: 5px;
+  width: 100%;
 }
 
 .title{
   color: #352384;
   font-size: 28pt;
   margin: 0%;
-
 }
+
 .p{
   color: #352384;
   font-size: 10pt;
 }
 
 .sing{
-  text-decoration: underline;
+  color: #728099;
   font-size: 12pt;
   margin-left: 10px;
-  color: #728099;
+  text-decoration: underline;
 }
 
 .text-minimo{
-  padding-top: 20px;
   color: #728099;
   font-size: 7pt;
+  padding-top: 20px;
 }
 
 .text-pink{
@@ -134,15 +133,15 @@ footer{
 
 .pag2{
   background: linear-gradient(#76278F, #2B1E66);
-  width: 100%;
-  height: 550px;
   padding-top: 70px;
+  height: 550px;
+  width: 100%;
 }
 
 .text-service{
-  width: 40%;
   padding-left: 100px;
   padding-bottom: 60px;
+  width: 40%;
 }
 
 .title-service{
@@ -160,8 +159,8 @@ footer{
 .pag2>.phone{
   float: right;
   height: 470px;
-  width: auto;
   margin: 0px 150px 70px 0px;
+  width: auto;
 }
 
 .video{
@@ -170,22 +169,22 @@ footer{
 }
 
 .video>iframe{
-  float: right;
-  width: 895px;
-  height: 505px;
   border: none;
+  float: right;
+  height: 505px;
+  width: 895px;
 }
 
 .video2>iframe{
-  float: left;
-  width: 895px;
-  height: 505px;
   border: none;
+  float: left;
+  height: 505px;
+  width: 895px;
 }
 
 .video-watch{
-  margin: 0%;
   font-size: 8pt;
+  margin: 0%;
 }
 
 .video-title{
@@ -198,13 +197,13 @@ footer{
 }
 
 .text-complete{
-  padding-top: 30px;
   padding-left: 4%;
+  padding-top: 30px;
 }
 
 .text-complete-right{
-  padding-top: 30px;
   padding-left: 71%;
+  padding-top: 30px;
 }
 
 .columns{
@@ -213,8 +212,8 @@ footer{
 
 .footer-column{
   float: left;
-  width: 10%;
   margin-right: 11%;
+  width: 10%;
 }
 
 .titles{
@@ -222,9 +221,9 @@ footer{
 }
 
 .footer-column>.footer-menu>a{
-  margin-top: 35px;
   display: block;
   font-size: 12pt;
+  margin-top: 35px;
 }
 
 .pink:hover{
@@ -233,9 +232,8 @@ footer{
 
 .images-button{
   display: block;
-  width: 135px;
   margin-bottom: 30px;
-
+  width: 135px;
 }
 
 .buttons-right{
@@ -246,23 +244,24 @@ footer{
 
 .social{
   margin-left: 20%;
-  text-align: center;
   padding-bottom: 30px;
+  text-align: center;
   width: 60%;
 }
 
 .social-media{
   border: 1px solid white;
-  padding: 10px;
   border-radius: 50px;
   display: inline-block;
-  margin-top: 100px;
   font-size: 10pt;
+  margin-bottom: 20px;
+  margin-top: 100px;
+  padding: 10px;
 }
 
 .privacy{
-  padding-top: 30px;
   font-size: 12pt;
+  padding-top: 30px;
 }
 
 .box{

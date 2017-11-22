@@ -184,8 +184,11 @@ button{
 
 footer{
   background-color: #333447;
-  padding-left: 10%;
   padding-top: 60px;
+}
+
+.columns{
+  padding-left: 10%;
 }
 
 .footer-column{
@@ -204,7 +207,43 @@ footer{
   font-size: 12pt;
 }
 
+.pink:hover{
+  color: #FF00BF;
+}
 
+.images-button{
+  display: block;
+  width: 135px;
+  margin-bottom: 30px;
+
+}
+
+.buttons-right{
+  float: right;
+  margin-right: 20%;
+  margin-top: 20px;
+}
+
+.social{
+  margin-left: 20%;
+  text-align: center;
+  padding-bottom: 30px;
+  width: 60%;
+}
+
+.social-media{
+  border: 1px solid white;
+  padding: 10px;
+  border-radius: 50px;
+  display: inline-block;
+  margin-top: 100px;
+  font-size: 10pt;
+}
+
+.privacy{
+  padding-top: 30px;
+  font-size: 12pt;
+}
 
 .box{
   border: 1px solid red;
